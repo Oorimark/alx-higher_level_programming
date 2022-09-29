@@ -4,7 +4,7 @@ def complex_delete(a_dictionary, value):
 
     # select the keys
     for k, v in a_dictionary.items():
-        if v == "C":
+        if v == value:
             impure_keys.append(k)
 
     # delete keys
